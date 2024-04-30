@@ -186,6 +186,7 @@ namespace DogScepterLib.Core.Models
                         ParseMaskData(reader);
                         break;
                     case SpriteType.SWF:
+                        /*
                         {
                             if (reader.ReadInt32() != 8)
                                 reader.Warnings.Add(new GMWarning("SWF format not correct"));
@@ -215,6 +216,7 @@ namespace DogScepterLib.Core.Models
                             reader.Offset = begin;
                             S_Buffer = reader.ReadBytes(swfDataLength);
                         }
+                        */
                         break;
                     case SpriteType.Spine:
                         {
